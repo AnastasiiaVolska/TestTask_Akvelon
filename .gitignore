@@ -1,0 +1,22 @@
+# no .a files 
+*.a 
+# but do track lib.a, even though you're ignoring .a files above 
+!lib.a 
+# ignore all files in the build/ directory 
+build/ 
+# ignore all .pdf files  in the doc/ directory 
+doc/**/*.pdf
+out/
+target/
+.idea/
+.rup/
+dummy.txt
+*.iml
+*.ipr
+*.iws
+bin/
+build/
+.settings/
+.project
+.classpath
+.gradle/
